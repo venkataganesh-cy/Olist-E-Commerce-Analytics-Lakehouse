@@ -1,0 +1,21 @@
+{
+	"name": "ds_local_olist_folder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_local_olist",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
