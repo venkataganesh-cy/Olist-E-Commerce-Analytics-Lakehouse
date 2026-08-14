@@ -1,0 +1,15 @@
+{
+	"name": "adf-olist-analytics",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b2ad7d10-43c2-48c1-883a-4712f2ce2d0d",
+		"tenantId": "465e3baa-1e0f-4157-b005-6abcb8b15b0f"
+	}
+}
