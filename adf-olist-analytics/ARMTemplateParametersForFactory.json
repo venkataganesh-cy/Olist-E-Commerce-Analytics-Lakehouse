@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-olist-analytics"
+		},
+		"ls_olist_AzureDataLakeStorage_landing_accountKey": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kv-olist-analysis.vault.azure.net/"
+		},
+		"ls_local_olist_properties_typeProperties_host": {
+			"value": "D:\\DE DATASETS"
+		},
+		"ls_local_olist_properties_typeProperties_userId": {
+			"value": "Ganesh\\hp"
+		},
+		"ls_olist_AzureDataLakeStorage_landing_properties_typeProperties_url": {
+			"value": "https://stolistanalytics.dfs.core.windows.net/"
+		}
+	}
+}
