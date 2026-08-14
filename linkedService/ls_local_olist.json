@@ -1,0 +1,24 @@
+{
+	"name": "ls_local_olist",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "D:\\DE DATASETS",
+			"userId": "Ganesh\\hp",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "laptop-pass",
+				"secretVersion": "b814cdcbcb424f51b16d7a88d40a9784"
+			}
+		},
+		"connectVia": {
+			"referenceName": "shir-olist",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
